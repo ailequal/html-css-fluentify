@@ -1,2 +1,2 @@
-# htmlcss-template
-A basic and organized template for writing HTML and CSS.
+# html-css-fluentify
+A modern home page reproduction about the following website: "[https://www.fluentify.com](https://www.fluentify.com)"
