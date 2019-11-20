@@ -141,5 +141,9 @@ color: rgb(242, 144, 33);
   margin: 0 0 15px 0;
 }
 
+.features > .container > div {
+  width: calc(100% / 3);
+}
+
 /* footer */
 /* empty */
