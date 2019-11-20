@@ -9,6 +9,14 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
 }
@@ -114,7 +122,24 @@ color: rgb(242, 144, 33);
 }
 
 /* main */
-/* empty */
+.catchphrase {
+  position: relative;
+  height: 150px;
+  background-color: rgb(198, 198, 198);
+  text-align: center;
+}
+
+.catchphrase > .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+
+.catchphrase > .container > h2 {
+  margin: 0 0 15px 0;
+}
 
 /* footer */
 /* empty */
