@@ -43,7 +43,7 @@ a {
 }
 
 .nav-bar {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
 }
 
 .nav-bar > ul {
@@ -69,10 +69,48 @@ a {
   margin-right: 50px;
 }
 
+/* .left-col > li > a:hover {
+  color: rgb(242, 144, 33);
+} */
+
+/* .right-col > li > a:first-child:hover {
+color: rgb(242, 144, 33);
+} */
+
 .login > a {
   padding: 5px 20px;
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
+}
+
+.plan-button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: rgb(106, 178, 35);
+  color: rgb(255, 255, 255);
+}
+
+.title-jumbotron > .plan-button {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+.jumbotron {
+  height: 325px;
+  position: relative;
+}
+
+.title-jumbotron {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
 }
 
 /* main */
