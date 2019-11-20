@@ -141,8 +141,38 @@ color: rgb(242, 144, 33);
   margin: 0 0 15px 0;
 }
 
-.features > .container > div {
+.features > .container > .left-col {
   width: calc(100% / 3);
+  text-align: center;
+  padding: 0 20px;
+}
+
+.features > .container > .left-col > div {
+  position: relative;
+}
+
+.features > .container > .left-col > div > h2 {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  color: rgb(80, 164, 91);
+}
+
+.short-border {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+}
+
+.features > .container > .short-border {
+
+}
+
+.features > .container > div > p {
+
 }
 
 /* footer */
